@@ -4,9 +4,6 @@ import "./App.css";
 require("dotenv").config();
 
 const App = () => {
-  const APP_ID = "6f1b3f2d";
-  const APP_KEY = "51ae557661706ccfef42add5ed7c90ab";
-
   const [recipes, setRecipes] = useState([]);
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState("chicken");
